@@ -1,4 +1,4 @@
-# 🐟 Remora (`v0.2`)
+# Remora (`v0.2`)
 
 ```text
   ____  _____ __  __  ___  ____     _    
@@ -17,7 +17,7 @@ Just like a remora fish attaches itself to a shark to feed on what passes by, **
 
 ---
 
-## 💡 Motivation (Why I Built This)
+## Motivation
 
 While studying network traffic analysis and packet inspection, I noticed how common it is to use third-party online PCAP analyzers (like *Apackets*) to get quick visual summaries of a capture file.
 
@@ -27,7 +27,7 @@ I built **Remora** as my first Python security tool to get that same instant tri
 
 ---
 
-## ⚙️ Features (`v0.2`)
+## Features (`v0.2`)
 
 1. **IPv4 Conversation Matrix**: Automatically summarizes who is talking to whom, total frames, bytes transferred, and connection duration (`tshark -q -z conv,ip`).
 2. **DNS Query Extractor**: Lists every source IP and the exact domain names requested (`dns.qry.name`) to spot C2 callbacks or DNS tunneling.
@@ -37,7 +37,7 @@ I built **Remora** as my first Python security tool to get that same instant tri
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - **Python 3.x** (uses only standard library modules: `sys` and `subprocess` — zero external `pip` dependencies).
 - **TShark** (part of the Wireshark suite) installed and available in your system `PATH`.
@@ -46,7 +46,7 @@ I built **Remora** as my first Python security tool to get that same instant tri
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Clone the repository and run `remora.py` passing any `.pcap` or `.pcapng` file as an argument:
 
@@ -92,7 +92,7 @@ Filter:<No Filter>
 
 ---
 
-## 🗺️ Roadmap (`v0.3+`)
+## Roadmap (`v0.3+`)
 
 As I continue expanding my Python and network forensics skills, here is what I am planning to implement next:
 
@@ -103,6 +103,6 @@ As I continue expanding my Python and network forensics skills, here is what I a
 
 ---
 
-## 👤 Author
+## Author
 
 Created by **tyn0x** as part of my hands-on journey into Cyber Security, packet analysis, and building custom CLI tools from scratch.
